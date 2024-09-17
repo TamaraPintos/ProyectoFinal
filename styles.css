@@ -1,0 +1,159 @@
+/* Reset básico para asegurar consistencia en distintos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Playfair Display', serif; 
+    line-height: 1.6;
+    color: #333;
+    background-color: #e0f7fa; /* Fondo celeste pastel */
+    padding: 20px;
+    max-width: 1200px; /* Limitar el ancho del cuerpo para mejorar la legibilidad */
+    margin: 0 auto; /* Centrar contenido */
+}
+
+/* Centrar el título */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #b38b59; /* Color dorado */
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    color: #b38b59; /* Color dorado */
+    margin-bottom: 20px;
+}
+
+/* Listas */
+#product-list, #cart-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* Elementos de la lista */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease; /* Añadir una suave animación al pasar el ratón */
+}
+
+li:hover {
+    transform: translateY(-5px); /* Elevar el elemento al pasar el ratón */
+}
+
+/* Estilos de botón */
+button {
+    padding: 10px 20px;
+    background-color: #b38b59; /* Dorado suave */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #8c6c47; /* Dorado más oscuro */
+    transform: scale(1.05); /* Pequeño agrandamiento al pasar el ratón */
+}
+
+/* Estructura de productos */
+.product-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Imágenes de productos */
+.product-image {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Espaciado automático para los botones en la lista de productos */
+button {
+    margin-left: auto;
+}
+
+/* Carrito de compras */
+#cart-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart-list button {
+    margin-left: 20px;
+    background-color: #f4a236; /* Color del botón de eliminar */
+}
+
+#cart-list button:hover {
+    background-color: #eba235;
+}
+
+/* Personalización adicional */
+body {
+    background-color: #f0f4f8; /* Fondo general */
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+li {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Mejorar accesibilidad en dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .product-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-image {
+        width: 80px;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+}

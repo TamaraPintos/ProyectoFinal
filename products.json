@@ -1,0 +1,39 @@
+
+[
+    {
+        "id": 1,
+        "name": "Whisky Chivas Royal Salute 21 Años 700ml",
+        "price": 288000,
+        "image": "Imagenes/chivas_royal_salute_21.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Whisky Johnnie Walker Gold Label 750ml",
+        "price": 85000,
+        "image":"Imagenes/johnnie_walker_gold_label.jpg "
+    },
+    {
+        "id": 3,
+        "name": "Whisky Johnnie Walker Swing 750ml",
+        "price": 107500,
+        "image": "Imagenes/johnnie_walker_swing.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Whisky Johnnie Walker Blue Label 750ml",
+        "price": 398500,
+        "image":"Imagenes/johnnie_walker_blue_label.jpg "
+    },
+    {
+        "id": 5,
+        "name": "Old Parr 12 Años 750ml",
+        "price": 50000,
+        "image": "Imagenes/old_parr_12.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Whisky Ballantines Finest 1000ml",
+        "price": 28600,
+        "image": "Imagenes/ballantines_finest.jpg"
+    }
+]
